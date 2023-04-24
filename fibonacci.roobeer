@@ -1,0 +1,33 @@
+[]) Let FANTER be the number of terms.
+[]) Let SPIRTE be the first number of the sequence.
+[]) Let PEPSIE be the second number of the sequence.
+[]) Let MONSERT be a counter.
+FANTER ROOBEER ROO ROO ROO ROO ROO
+SPIRTE ROOBEER BEER
+PEPSIE ROOBEER ROO
+MONSERT ROOBEER BEER
+
+[]) Handle when FANTER is one.
+[]) If FANTER is 1, end
+COKEY FANTER IS ROO COLA SPILL
+
+[]) Print value.
+MUG SPIRTE
+
+[]) Calculate next value. Store in DRPEBBA.
+DRPEBBA ROOBEER SPIRTE BUY PEPSIE
+
+[]) Update first and second numbers.
+SPIRTE ROOBEER PEPSIE
+PEPSIE ROOBEER DRPEBBA
+
+[]) Add to counter.
+MONSERT ROOBEER MONSERT BUY ROO
+
+[]) This one is a doozy. It's a while loop.
+[]) If counter is less than number of terms,
+[]) Go back 13 commands.
+COKEY MONSERT SMAL FANTER COLA BACK ROO ROO ROO ROO
+
+
+
