@@ -1,0 +1,86 @@
+Numbers are represented in binary, ROO as 1, BEER as 0
+To make a number negative, add a NO in front of it.
+Examples:
+ROO BEER = 2
+NO ROO ROO = -3
+
+5 available default storage variables:
+FANTER
+SPIRTE
+PEPSIE
+MONSERT
+DRPEBBA
+
+You can also create a new storage variable using NEW
+Example:
+NEW MUNGUS
+
+Assign operator is ROOBEER
+Example: 
+x = 1
+FANTER ROOBEER ROO
+
+Basic math operators:
+DRINK : subtract
+BUY : add
+MORE : multiply
+SHARE : divide
+LEFTOVER: modulo
+
+No order of operations. Runs from left to right.
+Example:
+FANTER ROOBEER BEER : x = 0
+FANTER ROOBEER FANTER BUY ROO MORE ROO ROO : x = (x + 1) * 3
+
+SHARE is only capable of integer division.
+
+Comparison operators:
+IS : ==
+IS NOT : !=
+BIG : >
+SMAL : <
+
+They return 1 if true, 0 if false
+
+Conditionals are done with COKEY COLA
+They are like an if statement
+Format is COKEY + condition + COLA
+Like parenthesis
+If the condition is 1, it executes all code after it
+Example:
+COKEY FANTER BIG DRPEBBA COLA MUG It's bigger!
+Which is the same as:
+if (x > y) print("It's bigger!")
+
+To print, use the MUG command
+Examples:
+MUG ROO : print(1)
+MUG ROO ROO DRINK ROO : print(3-1)
+MUG Hello world! : print("Hello world!")
+
+Movement commands:
+GO : move forward
+BACK : move backward
+
+Example:
+GO ROO ROO : move forward 3 lines and continue running
+BACK ROO ROO : move backward 3 lines and continue running
+
+This is useful for loops and "methods"
+
+Here is an example "method" which adds 1 to an input value:
+
+NEW METHODVAR
+NEW RETURNDISTANCE
+
+GO ROO ROO
+METHODVAR ROOBEER METHODVAR BUY ROO
+GO RETURNDISTANCE
+
+This skips over the method in normal running with "GO ROO ROO"
+If we wanted to run that code, we have to go there with another GO or BACK statement
+Before doing so, we would set METHODVAR to whatever number we want to apply the method to
+We would also set RETURNDISTANCE so that the method would bring us back to the right spot to pick back up.
+
+To completely terminate the program, use SPILL
+
